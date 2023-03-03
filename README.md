@@ -1,3 +1,7 @@
+![alt homepage](ss1.png)
+![alt product-details](ss2.png)
+![alt reviews](ss3.png)
+
 # TeamaptAssessment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
