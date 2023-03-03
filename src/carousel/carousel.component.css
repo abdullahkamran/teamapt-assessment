@@ -1,0 +1,34 @@
+.carousel {
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+    opacity: 1;    
+}
+
+.animate {
+    transition: all 0.5s;
+}
+
+.slided {
+    transform: translateX(-100vw);
+}
+
+.img2 {
+    position: absolute;
+    animation: widthAnim 0.5s;
+}
+
+@keyframes widthAnim {
+    0% {
+        width: 0vw;
+    }
+    100% {
+        width: 100vw;
+    }
+}

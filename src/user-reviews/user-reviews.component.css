@@ -1,0 +1,104 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  gap: 1rem;
+  /* background-color: #dfdfdf; */
+}
+
+.user-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.user-reviews {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+  gap: 0.4rem;
+}
+
+.chips {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 0.4rem;
+}
+
+.chip {
+  padding: .4rem;
+  border: 2px var(--primary) solid;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--primary);
+  background-color: #b9e5dc;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.review-container {
+  font-size: medium;
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.time {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--text-light);
+}
+
+.green {
+  color: var(--primary);
+}
+
+.star-color {
+  color: #f6a341;
+}

@@ -1,0 +1,38 @@
+.container {
+    overflow: auto;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.list-header {
+    display: flex;
+    margin: 1rem 1rem 0;
+    justify-content: space-between;
+}
+
+.list-header h3 {
+    margin: 0;
+}
+
+.list-header button {
+    border: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--primary);
+    background-color: transparent;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: inherit;
+    font-weight: inherit;
+}

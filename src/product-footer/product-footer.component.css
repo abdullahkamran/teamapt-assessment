@@ -1,0 +1,64 @@
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    z-index: 10;
+    background-color: var(--white);
+    justify-content: space-between;
+    height: 65px;
+    box-shadow: 1px 10px 20px 2px #bcbcbc;
+}
+
+footer .price {
+    color: var(--text-light);
+    font-size: 12px;
+}
+footer .price .value {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+footer .btn-group {
+    display: flex;
+}
+
+.btn-group .cart-btn {
+    color: var(--white);
+    background-color: var(--primary);
+    border-radius: 8px 0 0 8px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    transition: all 0.25s;
+    font-size: 16px;
+}
+
+.btn-group .buy-btn {
+    color: var(--white);
+    background-color: var(--secondary);
+    border-radius: 0 8px 8px 0;
+    border: 0px;
+    padding: 1rem 2rem;
+    transition: all 0.25s;
+    line-height: 16px;
+    font-size: 16px;
+}
+
+
+.btn-group .cart-btn:hover {
+    background-color: var(--primary-light);    
+}
+
+.btn-group .buy-btn:hover {
+    background-color: var(--secondary-light);
+}
+
+footer .btn.active {
+    color: var(--text-black);
+    font-weight: 500;
+}

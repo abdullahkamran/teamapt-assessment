@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="user-container">
+        <div class="user-info">
+            <img class="user-image" src="assets/images/customer.png" alt="user">
+            <span class="user-name">{{review.name}}</span>
+        </div>
+        <div class="user-reviews">
+            <div class="ratings">
+                <span class="material-symbols-rounded filled star-color">star</span>
+                <span>{{review.rating}}</span>
+            </div>
+            <span class="material-symbols-rounded filled">more_horiz</span>
+        </div>
+    </div>
+    <div class="chips">
+        <div class="chip">{{review.chips[0]}}</div>
+        <div class="chip">{{review.chips[1]}}</div>
+        <div class="chip">{{review.chips[2]}}</div>
+    </div>
+    <span class="review-container">{{review.review}}</span>
+    <div class="feedback">
+        <div class="feedback-container">
+            <span class="material-symbols-rounded filled green">thumb_up</span>
+            <span class="feedback-text">Helpful</span>
+        </div>
+        <span class="time">Yesterday</span>
+    </div>
+</div>

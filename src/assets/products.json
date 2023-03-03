@@ -1,0 +1,128 @@
+[
+    {
+        "id": "1",
+        "category": "Shirt",
+        "name": "Essentials Men's Short-Sleeve Crewneck T-Shirt",
+        "storeName": "tokobaju.id",
+        "brand": "ChArmkpR",
+        "color": "Green",
+        "sold": 2349,
+        "rating": 4.9,
+        "material": "Polyester",
+        "condition": "New",
+        "price": 12,
+        "description": "• Long Sleeve dress shirt\nPatch Pocket on Left Chest\n•Durable Combination of Cotton Fabric",
+        "images": [
+            "assets/images/blue-green-shirt.png",
+            "assets/images/brown-shirt-2.png",
+            "assets/images/brown-shirt-3.png",
+            "assets/images/brown-shirt-4.png",
+            "assets/images/brown-shirt-5.png"
+        ]
+    },
+    {
+        "id": "2",
+        "category": "Shirt",
+        "name": "Essentials Men's Short-Sleeve Crewneck T-Shirt Exclusive",
+        "storeName": "tokobaju.id",
+        "brand": "ChArmkpR",
+        "color": "Green",
+        "sold": 12300,
+        "rating": 4.7,
+        "material": "Polyester",
+        "condition": "New",
+        "price": 12,
+        "description": "• Long Sleeve dress shirt\nPatch Pocket on Left Chest\n•Durable Combination of Cotton Fabric",
+        "images": [
+            "assets/images/brown-shirt-1.png",
+            "assets/images/brown-shirt-2.png",
+            "assets/images/brown-shirt-3.png",
+            "assets/images/brown-shirt-4.png",
+            "assets/images/brown-shirt-5.png"
+        ]
+    },
+    {
+        "id": "3",
+        "category": "Shirt",
+        "name": "Essentials Men's Short-Sleeve Crewneck T-Shirt - Pack of Multicolored Shirts",
+        "storeName": "tokobaju.id",
+        "brand": "ChArmkpR",
+        "color": "Green",
+        "sold": 2349,
+        "rating": 4.9,
+        "material": "Polyester",
+        "condition": "New",
+        "price": 12,
+        "description": "• Long Sleeve dress shirt\nPatch Pocket on Left Chest\n•Durable Combination of Cotton Fabric",
+        "images": [
+            "assets/images/green-shirt-1.png",
+            "assets/images/green-shirt-2.png",
+            "assets/images/green-shirt-3.png",
+            "assets/images/green-shirt-4.png",
+            "assets/images/green-shirt-5.png"
+        ]
+    },
+    {
+        "id": "4",
+        "category": "Shirt",
+        "name": "Essentials Men's Short-Sleeve Crewneck T-Shirt",
+        "storeName": "tokobaju.id",
+        "brand": "ChArmkpR",
+        "color": "Green",
+        "sold": 2349,
+        "rating": 4.9,
+        "material": "Polyester",
+        "condition": "New",
+        "price": 12,
+        "description": "• Long Sleeve dress shirt\nPatch Pocket on Left Chest\n•Durable Combination of Cotton Fabric",
+        "images": [
+            "assets/images/vintage-shirt.png",
+            "assets/images/brown-shirt-2.png",
+            "assets/images/brown-shirt-3.png",
+            "assets/images/brown-shirt-4.png",
+            "assets/images/brown-shirt-5.png"
+        ]
+    },
+    {
+        "id": "5",
+        "category": "Shirt",
+        "name": "Essentials Men's Short-Sleeve Crewneck T-Shirt",
+        "storeName": "tokobaju.id",
+        "brand": "ChArmkpR",
+        "color": "Green",
+        "sold": 2349,
+        "rating": 4.9,
+        "material": "Polyester",
+        "condition": "New",
+        "price": 12,
+        "description": "• Long Sleeve dress shirt\nPatch Pocket on Left Chest\n•Durable Combination of Cotton Fabric",
+        "images": [
+            "assets/images/another-shirt.png",
+            "assets/images/brown-shirt-2.png",
+            "assets/images/brown-shirt-3.png",
+            "assets/images/brown-shirt-4.png",
+            "assets/images/brown-shirt-5.png"
+        ]
+    },
+    {
+        "id": "6",
+        "category": "Shirt",
+        "name": "Essentials Men's Short-Sleeve Crewneck T-Shirt",
+        "storeName": "tokobaju.id",
+        "brand": "ChArmkpR",
+        "color": "Green",
+        "sold": 2349,
+        "rating": 4.9,
+        "material": "Polyester",
+        "condition": "New",
+        "price": 12,
+        "description": "• Long Sleeve dress shirt\nPatch Pocket on Left Chest\n•Durable Combination of Cotton Fabric",
+        "images": [
+            "assets/images/another-shirt-2.png",
+            "assets/images/brown-shirt-2.png",
+            "assets/images/brown-shirt-3.png",
+            "assets/images/brown-shirt-4.png",
+            "assets/images/brown-shirt-5.png"
+        ]
+    }
+]

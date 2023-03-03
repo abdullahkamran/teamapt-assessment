@@ -1,0 +1,132 @@
+<app-product-nav></app-product-nav>
+<main>
+    
+<div class="product-container">
+    <img id="image" class="product-image" [src]="selectedImage" [ngClass]="imageClasses" alt="{{product?.name}}">
+
+    <div class="product-tiles">
+        <img
+            *ngFor="let tile of (product?.images || [])"
+            class="product-tile-image"
+            [ngClass]="{'selected-tile': tile === selectedImage}"
+            [src]="tile"
+            alt="{{product?.name}}"
+            (click)="tileClicked(tile)">
+    </div>
+
+    <div class="store">
+        <span class="material-symbols-rounded filled">storefront</span>
+        <span class="store-name">{{product?.storeName}}</span>
+    </div>
+
+    <span class="title">{{product?.name}}</span>
+    <div class="product-details">
+        <span class="stats">
+            <span class="material-symbols-rounded filled">star</span>
+            <span>4.9 Ratings</span>
+        </span>
+        <span class="stats">
+            <span class="list">
+                2.3k+ Reviews
+            </span>
+        </span>
+        <span class="stats">
+            <span class="list">2.9k+ Sold</span>
+        </span>
+    </div>
+
+    <hr>
+    
+    <table>
+        <tr>
+            <th scope="row">Brand:</th>
+            <td>ChArmkpR<td>
+
+            <th scope="row">Color:</th>
+            <td>Aprikot<td>
+        </tr>
+        <tr>
+            <th scope="row">Category:</th>
+            <td>Casual Shirt<td>
+
+            <th scope="row">Material:</th>
+            <td>Polyester<td>
+        </tr>
+        <tr>
+            <th scope="row">Condition:</th>
+            <td>New<td>
+
+            <th scope="row">Heavy:</th>
+            <td>200 g<td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h4>Description:</h4>
+
+    <div class="description">
+
+        <ul>
+            <li>Long-sleeve dress shirt in classic fit featuring button-down collar</li>
+            <li>Patch Pocket on Left Chest</li>
+            <li>Durable Combination Cotton Fabric</li>
+            <li>Comfortable and quality dress shirt</li>
+            <li>Go To Classic button down shirt for all special occasions</li>
+          </ul>  
+        Chat us if there is anything you need to ask about the product :)
+    </div>
+
+    <hr>
+    <h4>Shippings Information:</h4>
+
+    <table>
+        <tr>
+            <th scope="row">Delivery:</th>
+            <td>Shipping from Jakarta, Indonesia<td>
+        </tr>
+        <tr>
+            <th scope="row">Shipping:</th>
+            <td>FREE International Shipping<td>
+        </tr>
+        <tr>
+            <th scope="row">Arrive:</th>
+            <td>Estimated arrival on 25 - 27 Oct 2022<td>
+        </tr>
+    </table>
+
+    <hr>
+    <h4>Seller Information:</h4>
+    <app-seller-card></app-seller-card>
+    
+    <hr>
+    <h4>Reviews & Ratings</h4>
+    <app-ratings></app-ratings>
+
+    <h4>Reviews with images & videos</h4>
+    <div class="review-images">
+        <img src="assets/images/brown-shirt-3.png" alt=""/>
+        <img src="assets/images/brown-shirt-4.png" alt=""/>
+        <img src="assets/images/brown-shirt-5.png" alt=""/>
+        <img src="assets/images/green-shirt-3.png" alt=""/>
+    </div>
+
+    <div class="top-reviews">
+        <div class="reviews-filter">
+            <h4>Top Reviews</h4>
+            <span>Showing 3 of 2.5k+ reviews</span>
+        </div>
+        <select name="" id="">
+            <option value="">Popular</option>
+            <option value="">Most Recent</option>
+            <option value="">Most Helpful</option>
+        </select>
+    </div>
+    <app-user-reviews
+     *ngFor="let review of reviews"
+     [review]="review"></app-user-reviews>
+</div>
+<app-card-list title="Recommendation" [products]="products"></app-card-list>
+
+</main>
+<app-product-footer></app-product-footer>

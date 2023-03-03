@@ -1,0 +1,18 @@
+<div class="tabs-bar">
+    <div class="btn" [ngClass]="{'active': activeTab === 'home'}" (click)="activeTab = 'home';">
+        <span class="material-symbols-rounded">home</span>
+        <span>Home</span>
+    </div>
+    <div class="btn" [ngClass]="{'active': activeTab === 'voucher'}" (click)="activeTab = 'voucher';">
+        <span class="material-symbols-rounded">confirmation_number</span>
+        <span>Voucher</span>
+    </div>
+    <div class="btn" [ngClass]="{'active': activeTab === 'wallet'}" (click)="activeTab = 'wallet';">
+        <span class="material-symbols-rounded">account_balance_wallet</span>
+        <span>Wallet</span>
+    </div>
+    <div class="btn" [ngClass]="{'active': activeTab === 'settings'}" (click)="activeTab = 'settings';">
+        <span class="material-symbols-rounded">settings</span>
+        <span>Settings</span>
+    </div>
+</div>

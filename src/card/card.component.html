@@ -1,0 +1,14 @@
+<div class="product-card">
+    <span class="favorite material-symbols-rounded"
+        [ngClass]="{'filled': isFavorite}" (click)="favoriteClicked($event)">favorite</span>
+    <img src="{{product?.images?.[0]}}" alt="{{product?.name}}" />
+    <span class="category">{{product?.category}}</span>
+    <span class="title">{{product?.name}}</span>
+    <div class="product-details">
+        <span class="stats">
+            <span class="material-symbols-rounded filled">star</span>
+            <span>{{product?.rating}} | {{product?.sold}}</span>
+        </span>
+        <span class="price">$12.00</span>
+    </div>
+</div>
